@@ -1,0 +1,47 @@
+
+---Downloaded files---
+The import files for: Erapress Free were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://demo103.rectusmedia.in
+Data file = /home1/rectubmx/demo103.rectusmedia.in/wp-content/uploads/2023/12/demo-content-import-file_2023-12-09__11-22-11.xml
+Widget file = /home1/rectubmx/demo103.rectusmedia.in/wp-content/uploads/2023/12/demo-widgets-import-file_2023-12-09__11-22-11.json
+Customizer file = /home1/rectubmx/demo103.rectusmedia.in/wp-content/uploads/2023/12/demo-customizer-import-file_2023-12-09__11-22-11.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+erapress-header-above-first : Sidebar does not exist in theme (moving widget to Inactive)
+
+EraPress : Contact Widget - No Title - Imported to Inactive
+
+erapress-woocommerce-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Block - No Title - Imported to Inactive
+Block - No Title - Imported to Inactive
+
+Sidebar Widget Area : 
+
+Search - Search - Imported
+Archives - Archives - Imported
+Categories - Categories - Imported
+Gallery - Gallery - Imported
+Meta - Meta - Imported
+Recent Posts - Recent Post - Imported
+Tag Cloud - Tags - Imported
+Calendar - Calendar - Imported
+
+Footer   : 
+
+Custom HTML - No Title - Imported
+Recent Posts - Recent Posts - Imported
+Navigation Menu - Quick Links - Imported
+EraPress : Contact Widget - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+.funfact-wapper {
+    padding: 30px;
+    background: rgba(255 255 255 / 10%);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    backdrop-filter: blur(6px);
+    position: relative;
+}
+
+.funfact-wapper:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    transition: 0.5s;
+    width: 10%;
+    height: 14%;
+    z-index: 3;
+    border-left: 2px solid #FF9300;
+    border-top: 2px solid #FF0056;
+}
+
+.funfact-wapper:after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    transition: 0.5s;
+    width: 10%;
+    height: 14%;
+    border-right: 2px solid #FF9300;
+    border-bottom: 2px solid #FF0056; 
+}
+.funfact-section-1 .funfact-wapper:hover:after,
+.funfact-section-1 .funfact-wapper:hover:before{
+    width: 100%;
+    height: 100%;
+}
+
+.funfact-wapper h2 {
+    color: #0ba813;
+    font-size: 50px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#ff9300, #ff0056);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span.title {
+    font-size: 22px;
+}
+
+.funfact-wapper:hover:after,  .funfact-wapper:hover:before {
+    width: 100%;
+    height: 100%;
+}
+.funfact-wapper h2{
+    padding-top:0;
+}

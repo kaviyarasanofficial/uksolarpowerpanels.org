@@ -1,0 +1,204 @@
+#customize_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+#customize_wrapper #customize-mw {
+    /*margin: 0 102px;*/
+}
+
+.under-section {
+/*    text-align: right;*/
+    position: absolute;
+    right: 0;
+/*    width: 400px;*/
+/*    background: red;*/
+/*    transform: translate(-100%);*/
+}
+img.under-images {
+    height: 400px;
+}
+
+.under-section #customize_wrapper .tns-ovh{
+    text-align: right;
+}
+
+
+.tiny-inner {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+}
+/*.thumbnails li{
+ display: inline-block;
+  cursor: pointer;
+ 
+  position: relative;
+
+  }*/
+ .owl {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+ 
+ul#customize-controls {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+
+.controls li.prev,
+.controls li.next {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 40px;
+    background: linear-gradient(to right,#FF9300,#FF0056);
+    color: #fff;
+    display: inline-block;
+    transition: 0.65s;
+}
+.controls li.prev:hover,
+.controls li.next:hover,
+.controls li.prev:focus-within,
+.controls li.next:focus-within{
+    background: #fff;
+}
+.controls li.prev:hover i,
+.controls li.next:hover i,
+.controls li.prev:focus-within i,
+.controls li.next:focus-within i{
+    background: linear-gradient(to right,#FF9300,#FF0056);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: 0.65s;
+}
+
+/*.thumbnails li.tns-nav-active {
+    background-color: #1f1f1f;
+     border-radius: 50%;
+     border: 1px solid;
+}*/
+
+
+
+
+.slide-page{
+    position:relative;
+/*    text-align: left;    */
+}
+.slide-text{
+    position: absolute;
+    top: 50%;
+    /* left: 0; */
+    transform: translate(0%,-50%);
+    color: #1f1f1f;
+    line-height: 70px;
+    width: 40%
+}
+.slide-text h1{
+    font-size: 60px;
+    margin: 0;
+    color: #fff;
+}
+
+.slide-text button {
+    background: linear-gradient(to right,#FF9300,#FF0056);
+    color: #fff;
+    padding: 10px 15px;
+    border:none;
+    outline: none;
+    line-height: 1.5;
+}
+.slide-text button>i{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #121314;
+    font-size: 13px;
+    transition: 0.65s;
+}
+.slide-text button:hover>i,
+.slide-text button:focus-within>i{
+    background: linear-gradient(to right,#FF9300,#FF0056);
+    color: #fff;
+}
+
+
+
+.hover-button{
+    font-size: 16px;
+    background: linear-gradient(to right ,#FF9300,#FF0056);
+    color: #fff;
+    border: none;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.hover-button:hover,.hover-button:focus-within{
+    color: #fff;
+}
+.hover-button::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #121314;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 30px;   
+}
+.hover-button::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+   opacity: 1;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+.hover-button:hover::before{
+    width: 100%;
+    transition: 0.5s; 
+}
+
+.hover-button:hover::after{
+    opacity: 0;
+    width: 100%; 
+}
+
+
+section.section-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-slider > .container{
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    /*height: 10px;
+    background-color: red;*/
+}
